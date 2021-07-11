@@ -1,6 +1,8 @@
 '''
-This program reads 
+This program reads bestsqs file from user and generates POSCAR file 
+To run use "python sqs_to_poscar.py bestsqs.out"
 '''
+
 
 import sys
 import numpy as np
