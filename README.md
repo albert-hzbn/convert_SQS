@@ -8,4 +8,4 @@ python3 and numpy
 
 ### Usage 
 
-`python sqs_to_poscar.py bestsqs.out`
+`python3 sqs_to_poscar.py bestsqs.out`
