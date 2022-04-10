@@ -22,8 +22,8 @@ def extract_vals(s_i, e_i):
     return vec
 
 
-unit_cell = np.array(extract_vals(0, 3)).astype(np.float)
-lattice_vectors = np.array(extract_vals(3, 6)).astype(np.float)
+unit_cell = np.array(extract_vals(0, 3)).astype(float)
+lattice_vectors = np.array(extract_vals(3, 6)).astype(float)
 atomic_positions = np.array(extract_vals(6, len(data)))
 
 # Arrange atoms according to elements
@@ -40,7 +40,7 @@ a_pos = a_pos[1:]
 
 # multiply to obtain lattice vector and atomic positions
 l_vec = np.matmul(lattice_vectors, unit_cell)
-a_pos = np.matmul(a_pos[:, 0:3].astype(np.float), unit_cell)
+a_pos = np.matmul(a_pos[:, 0:3].astype(float), unit_cell)
 
 
 # Converting data to POSCAR
