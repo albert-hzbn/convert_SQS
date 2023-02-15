@@ -1,6 +1,6 @@
 '''
 This program reads bestsqs file from user and generates structure file 
-for quantum espresso or VASP format
+either in quantum espresso or VASP format
 To run use "python3 convert_sqs.py bestsqs.out"
 '''
 
