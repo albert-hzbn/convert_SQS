@@ -1,4 +1,4 @@
-## SQS to POSCAR
+## Convert SQS 
 
 This program converts Special Quasirandom Structures(SQS) generated from Alloy Theoretic Automated Toolkit(ATAT) to quantum espresso or VASP file format. 
 
