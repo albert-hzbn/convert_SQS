@@ -84,9 +84,7 @@ def create_poscar(l_vec, a_pos, elem_arr, num_atoms_arr, coordinate_type, unit_c
         str_arr.append(f'  {l_vec[i,0]:.10f}  {l_vec[i,1]:.10f}  {l_vec[i,2]:.10f}')
 
     str_arr.append('  ' + ' '.join(elem_arr))
-
     str_arr.append('  ' + ' '.join(map(str, num_atoms_arr)))
-
     str_arr.append(coordinate_type.capitalize())
 
     for a in a_pos:
